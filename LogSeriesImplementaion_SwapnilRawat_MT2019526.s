@@ -31,7 +31,7 @@ LOOP VCMP.F32 s4,s6                   ;Comparing between the upper limit and the
      BGT LOOP 					      ; run the loop 5 times
      
 	 
-	 VMOV.F32 s12,s5                  ;The fianl value is transfered from s5 to s12 finally	 
+	 VMOV.F32 s12,s5                  ;The final value is transfered from s5 to s12 finally	 
 stopProgram    B stopProgram          ; to stop the program
 	 	 
      ENDFUNC
